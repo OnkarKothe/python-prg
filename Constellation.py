@@ -1,5 +1,27 @@
 
 # -*- coding: utf-8 -*-
+'''
+Three characters { #, *, . } represents a constellation of stars and galaxies in space.
+Each galaxy is demarcated by # characters. There can be one or many stars in a given galaxy.
+Stars can only be in the shape of vowels { A, E, I, O, U }. A collection of * in the shape of the vowels is a star.
+A star is contained in a 3×3 block. Stars cannot be overlapping. The dot(.) character denotes empty space.
+Example:
+
+Input
+
+18
+
+* . * # * * * # * * * # * * * . * .
+
+* . * # * . * # . * . # * * * * * *
+
+* * * # * * * # * * * # * * * * . *
+
+Output
+
+U#O#I#EA
+
+'''
 """
 Created on Fri Nov 12 22:45:43 2021
 
